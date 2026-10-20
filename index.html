@@ -1,7 +1,7 @@
 <!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>21 días, siempre contigo 💌</title><style>
 :root{color-scheme:light dark;--bg:light-dark(#fff6f2,#211c24);--card:light-dark(#fffdfc,#342c35);--ink:light-dark(#402b3a,#fff0f3);--muted:light-dark(#836b77,#d0b7c4);--accent:#bb597d;--border:light-dark(#ecd7dd,#59424e)}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif}main{max-width:900px;margin:auto;padding:48px 20px 90px}.hero{text-align:center;padding:30px 10px 44px}.eyebrow{font:600 12px system-ui;letter-spacing:3px;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(36px,7vw,64px);line-height:1.08;margin:18px 0}p{line-height:1.8}.subtitle{color:var(--muted);font-size:18px}.count{display:inline-block;border:1px solid var(--border);border-radius:40px;padding:12px 22px;font:500 13px system-ui;margin-top:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:14px}.envelope{border:1px solid var(--border);border-radius:18px;background:var(--card);min-height:155px;padding:18px 12px;cursor:pointer;color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;transition:transform .15s}.envelope:hover:not(:disabled){transform:translateY(-3px)}.envelope:disabled{opacity:.57;cursor:not-allowed}.symbol{font-size:35px}.day{font:700 13px system-ui}.name{font-size:14px;text-align:center;line-height:1.4}.date{font:12px system-ui;color:var(--muted)}dialog{border:1px solid var(--border);border-radius:22px;background:var(--card);color:var(--ink);width:min(700px,calc(100% - 24px));max-height:88vh;padding:clamp(20px,5vw,44px);box-shadow:0 25px 90px #0004}dialog::backdrop{background:#180d17bb}.letter{white-space:pre-line;font-size:17px;line-height:1.85}.letter h2{font-size:29px}.close{float:right;border:0;border-radius:40px;padding:10px 15px;background:var(--accent);color:white;cursor:pointer;font:600 13px system-ui}.footer{text-align:center;color:var(--muted);margin-top:42px;font-size:14px}.note{text-align:center;color:var(--muted);font-size:13px;margin:20px 0 30px;font-family:system-ui}
 </style></head><body><main><section class="hero"><div class="eyebrow">De La Serena hasta Japón · 2026</div><h1>21 días sin ti,<br>pero nunca lejos de ti. ❤️</h1><p class="subtitle">Para Vicente: mientras recorres Japón, quiero llevarte a recorrer nuestra historia.</p><div class="count" id="counter">Un recuerdo nuevo cada día 💌</div></section><p class="note">Los sobres se abren según la fecha en Japón. No vale hacer trampa, señor Vicente 👀</p><section class="grid" id="grid"></section><p class="footer">Nuestro camino comenzó en la playa 🌊 · Con todo mi amor, Fiama</p></main><dialog id="modal"><button class="close" id="close">Cerrar ✕</button><article id="content"></article></dialog><script>
-const titles=["El día en que todo comenzó", "El beso que comenzó todo", "La primera vez que nos elegimos", "Donde encontré mi hogar", "Realmente lo hicimos", "Nuestra lavadora poseída", "Nuestra pequeña familia", "Mi parte favorita de todos los días", "Mi lugar favorito del mundo", "Un viaje para recordar", "Cosas que amo de ti", "Nuestros momentos", "Una sonrisa desde lejos", "Un pedacito de casa", "Lo que hemos construido", "Nuestros sueños", "Una aventura más", "Todo lo que nos espera", "Cada día más cerca", "Casi en casa", "Siempre te elegiría"];
+const titles=["El día en que todo comenzó", "El beso que comenzó todo", "La primera vez que nos elegimos", "Donde encontré mi hogar", "Realmente lo hicimos", "Nuestra lavadora poseída", "Nuestra pequeña familia", "Mi parte favorita de todos los días", "Mi lugar favorito del mundo", "Todos mis mañanas contigo", "Cosas que amo de ti", "Nuestros momentos", "Una sonrisa desde lejos", "Un pedacito de casa", "Lo que hemos construido", "Nuestros sueños", "Una aventura más", "Todo lo que nos espera", "Cada día más cerca", "Casi en casa", "Siempre te elegiría"];
 const letters=[
 `Amor:
 
@@ -966,6 +966,71 @@ Te amo muchísimo.
 Gracias por hacerme sentir que, esté donde esté, si estoy contigo, estoy exactamente donde quiero estar.
 
 Carta 9 de 21. 💌
+
+Nos vemos en casa. 🏠❤️`,
+`Amorcito precioso:
+
+¿Sabes cuántas veces me he imaginado nuestro futuro juntos? A veces me pongo a pensar en todas las cosas que todavía nos quedan por vivir y siento una emoción tan grande que no sé cómo explicártela. Porque cuando sueño con el futuro, amor, inevitablemente apareces tú. En todos mis planes bonitos estás tú. En todos esos lugares que quiero conocer, en todas las experiencias que quiero vivir y en todas las versiones de mí misma en las que me imagino convirtiéndome, estás tú, de mi manito, acompañándome.
+
+Tenemos tantos sueños, mi vida. Queremos viajar por el mundo, conocer lugares que hasta ahora solo hemos visto en fotos, perdernos por calles desconocidas, probar comidas nuevas, descubrir paisajes que nos dejen con la boca abierta y llenar nuestra memoria de historias que algún día podamos recordar sentados juntitos, diciendo: «¿Te acuerdas cuando fuimos ahí?». Quiero conocer tantos lugares contigo que a veces siento que el mundo nos va a quedar pequeño. JAJAJAJA. ❤️
+
+Pero ¿sabes qué es lo más lindo de todo eso? Que no sueño con esos lugares solamente por lo maravillosos que puedan ser. Sueño con conocerlos contigo porque sé que, al final del día, lo que voy a recordar con más cariño no va a ser solamente el paisaje, el hotel o la comida que probamos. Voy a recordar tu cara cuando veas algo que te sorprenda, tus comentarios, nuestras risas, las tonteras que seguramente nos pasarán y esa felicidad de estar viviendo algo nuevo con mi persona favorita.
+
+Porque yo quiero conocer el mundo contigo, amorcito, pero también quiero seguir descubriendo nuestra propia vida. Quiero que nos queden miles de primeras veces, aventuras inesperadas, viajes improvisados y anécdotas que todavía ni siquiera imaginamos. Quiero que nos sigamos sorprendiendo, que sigamos creciendo y que nunca perdamos esas ganas de hacer cosas juntos.
+
+Y entre todos esos sueños hay uno que, tengo que admitirlo, me tiene especialmente entusiasmada. JAJAJAJA. Tú sabes cuál es. 💍❤️
+
+Mi sueño de casarme contigo.
+
+Quizás yo soy la más emocionada con el matrimonio de los dos, JAJAJAJA, y probablemente podría pasarme horas imaginando cómo sería ese día, cómo me vestiría, qué música sonaría, cómo estaríamos rodeados de las personas que amamos y cómo se sentiría mirarte a los ojos mientras celebramos nuestro amor junto a nuestros seres queridos. Me emociona pensar en poder compartir con ellos algo tan importante para nosotros, que puedan ver nuestra felicidad y acompañarnos en ese momento tan bonito.
+
+Pero, amor mío, quiero que sepas que mi ilusión no está solamente en la boda. No es únicamente por el vestido, las fotos, la celebración o por tener un anillo precioso en mi mano. Todo eso sería hermoso, por supuesto, y probablemente yo estaría llorando desde antes de llegar. JAJAJAJA. 😭❤️ Pero lo que realmente me emociona es lo que significa para mí casarme contigo.
+
+Es poder decirte, delante de las personas que más queremos, que te elijo. Que entre todas las personas que podría haber conocido en este mundo, tuve la suerte de encontrarte a ti, de enamorarme de ti y de construir esta historia tan nuestra. Que quiero seguir eligiéndote cuando la vida sea fácil y cuando nos ponga a prueba. Que quiero ser tu compañera, tu apoyo, tu lugar seguro y esa persona a la que siempre puedas volver.
+
+Y quiero que entiendas algo, mi amorcito: cuando digo que sé que eres el hombre de mi vida, no lo digo solamente porque estoy enamorada hasta las patas de ti. Lo digo porque te conozco. Porque he tenido la oportunidad de compartir la vida contigo, de conocer tus virtudes, tus mañas, tus días buenos y tus días difíciles. Porque he visto la persona que eres, el corazón que tienes, cómo amas, cómo cuidas y cómo te preocupas por los tuyos. Y cuanto más te conozco, más segura me siento de que eres tú la persona con la que quiero seguir construyendo mi historia.
+
+No siento que necesite más tiempo para saber que quiero casarme contigo. No porque crea que ya lo sabemos todo o que la vida no vaya a cambiar nunca, sino porque, con todo lo que conozco de ti y de nosotros hasta ahora, sé que quiero seguir descubriéndolo a tu lado. Sé que quiero crecer contigo, aprender contigo, equivocarme y volver a intentarlo contigo. Quiero que la vida nos transforme de mil maneras, pero que podamos acompañarnos mientras eso sucede.
+
+Y hay otro sueño que guardo con muchísimo amor en mi corazón: formar una familia contigo. 🥹❤️
+
+Cuando pienso en tener hijos algún día, no puedo evitar imaginarte siendo papá. Me imagino tu ternura, tu preocupación por ellos, tu manera de cuidarlos y ese corazón enorme tuyo acompañándolos mientras crecen. Y me emociona pensar que algún día podríamos compartir con ellos todo ese amor que hemos construido entre nosotros.
+
+De verdad, amor, tú eres todo lo que podría desear para el padre de mis hijos. No porque espere que seas perfecto, porque sé que ninguno de nosotros lo es, sino porque conozco al hombre que eres y sé cuánto amor tienes para dar. Me hace feliz imaginar una familia en la que podamos enseñarles a amar con sinceridad, a preocuparse por los demás, a disfrutar de las cosas sencillas y a encontrar felicidad en los pequeños momentos. Una familia llena de cariño, risas, aventuras y recuerdos bonitos. Una familia que podamos construir a nuestra manera, con nuestras propias tradiciones y con todo ese amor que nos sobra.
+
+Me imagino tantas cosas, Vi. Nuestra casa, nuestros viajes, las celebraciones familiares, los domingos tranquilos, las comidas juntos, las historias que contaremos una y otra vez. Me imagino vernos crecer, cambiar, cumplir sueños y acompañarnos en cada etapa. Me imagino mirar hacia atrás después de muchos años y sentir esa felicidad inmensa de saber que compartimos una vida llena de momentos que valieron la pena.
+
+Y, aunque todo eso todavía pertenezca al futuro, hay algo que ya tengo hoy y que me hace profundamente feliz: te tengo a ti. Tenemos nuestra historia, nuestro hogar, a nuestra pequeña Lilo y todos esos días normales que, sin darnos cuenta, también están construyendo nuestra vida.
+
+No quiero apurar el tiempo ni pretender que tenemos que resolverlo todo ahora. Quiero disfrutar cada etapa que nos toque vivir, seguir construyendo nuestra relación y permitir que nuestros sueños encuentren su momento. Pero sí quiero que sepas cuánto deseo ese futuro contigo. Quiero que sepas que, cuando hablo de casarme contigo, lo hago desde una ilusión sincera y profunda, desde la felicidad de imaginarme compartiendo mi vida con el hombre al que amo.
+
+Si algún día llega ese momento en que me pidas matrimonio, quiero que sepas que no estarás haciendo feliz solamente a una mujer que lleva mucho tiempo soñando con su boda. Estarás haciendo feliz a una mujer que está deseando elegirte para toda la vida, que quiere celebrar delante de todos cuánto te ama y que está emocionada por comenzar contigo una nueva etapa de nuestra historia.
+
+Y si pudiera pedirle algo a la vida, amorcito, sería que nos regale muchos años juntos. Que nos dé la oportunidad de cumplir nuestros sueños, conocer el mundo, formar nuestra familia y seguir encontrando razones para enamorarnos. Que algún día podamos mirar todo lo que construimos y sentir orgullo de la vida que hicimos juntos.
+
+No sé exactamente cómo será nuestro futuro, qué lugares conoceremos primero, dónde estaremos dentro de diez años ni cuántas cosas cambiarán en el camino. Pero sé que quiero descubrirlo contigo.
+
+Quiero ser tu polola, tu futura esposa, la mamá de nuestros hijos si la vida nos regala esa oportunidad, tu compañera de aventuras y la persona que siga celebrando tus pequeños logros con la misma alegría de siempre. Quiero seguir siendo la que te mira con ternura cuando haces tu bailecito de la felicidad, la que te acaricia el pelito cuando te quedas dormido en mi pecho y la que encuentra en ti su lugar favorito del mundo.
+
+Porque mi sueño nunca ha sido simplemente casarme. Mi sueño es casarme contigo. Mi sueño es formar una familia contigo. Mi sueño es viajar por el mundo contigo. Mi sueño es seguir compartiendo contigo esas pequeñas cosas que hacen que la vida sea tan bonita.
+
+Y si algo tengo claro, mi amor, es que no necesito imaginar una vida perfecta para desear una vida contigo. Me basta con imaginar una vida real, con días maravillosos y otros más difíciles, con cambios, aprendizajes, desafíos y muchísimas razones para reírnos. Una vida en la que podamos seguir tomándonos de la mano y recordando que estamos del mismo lado.
+
+Te amo con una profundidad que a veces hasta a mí me sorprende. Y me hace infinitamente feliz pensar que todavía nos queda tanto por vivir, tantos lugares por conocer, tantos sueños por cumplir y tantas versiones de nosotros mismos por descubrir.
+
+Así que sí, mi amorcito: quiero casarme contigo. Quiero celebrar nuestro amor con las personas que queremos, quiero construir una familia contigo y quiero tener la oportunidad de elegirte una y otra vez a lo largo de nuestra vida.
+
+Y mientras llega el día en que podamos cumplir todos esos sueños, quiero seguir amándote aquí, en nuestro presente, disfrutando de cada pasito que damos juntos.
+
+Porque si algo sé hoy, con todo mi corazón, es que cuando imagino todos mis mañanas, en cada uno de ellos quiero encontrarte a ti.
+
+Te amo infinitamente, mi vida. Y qué felicidad tan grande la mía poder soñar con todo esto, sabiendo que el hombre con el que sueño compartirlo todo eres tú. ❤️
+
+Con todo mi amor,
+
+Tu Fiama, la que ya se imagina caminando hacia ti y que, si pudiera elegir mil veces, mil veces volvería a elegirte. 💌
+
+Carta 10 de 21. 💌
 
 Nos vemos en casa. 🏠❤️`
 ];
